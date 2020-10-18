@@ -1,0 +1,171 @@
+/* estilos generales */
+body{
+  font-family: "Montserrat";
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: white;
+}
+h1, h2, h3, h4{
+font-family:"Montserrat-bold";
+}
+
+h2{
+  text-align: center;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  color: black;
+
+}
+
+h3{
+
+  font-size: 1.5rem;
+
+}
+
+p{
+  color: #8f8f8f;
+}
+
+em{
+margin-left: 5px;
+font-size: 20px;
+}
+
+/* seccion titulo */
+
+#titulo{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.imagen-perro1{
+  border-radius: 3%;
+  width: 70%;
+  height: 110%;
+  position: absolute;
+  left: 15%;
+}
+
+/* seccion features */
+
+#features{
+padding: 7% 15%;
+background-color: #fff;
+position: relative;
+z-index: 1;
+}
+
+.caracteristicas{
+  text-align: center;
+  padding: 5%;
+}
+
+.iconos-medio{
+  color: #ef8172;
+  margin-bottom: 5%;
+  font-size: 55px;
+}
+
+.iconos-medio:hover{
+  color: #8f8f8f;
+}
+
+/* seccion testimonio */
+#testimonios{
+
+  background-color: #ff4c68;
+  color: white;
+
+}
+
+.imagen-testimonio{
+width: 22%;
+border-radius: 100%;
+margin-left: 35%;
+margin-top: 5px;
+text-align: center;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* seccion marcas */
+#marcas{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.imagen-marcas{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+/*seccion precios */
+#precios{
+    padding: 110px;
+    text-align: center;
+}
+.columnas-precio{
+  padding: 3% 2%;
+}
+
+/*Media query breakpoint */
+
+@media  (max-width: 1028px) {
+
+  h1{
+    font-size: 3rem;
+  }
+
+#titulo{
+text-align: center;
+
+}
+.imagen-perro1{
+  position: static;
+  transform: rotate(0);
+}
+
+}
+
+#recomendacionapp{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.textorecomendacion{
+font-family: 'Montserrat-bold';
+font-size: 3.5rem;
+line-height: 70px;
+
+}
+
+.boton-descarga{
+  margin-top:70px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+
+}
+
+#piepagina{
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.redes-sociales{
+  margin: 20px 10px;
+}
